@@ -6,13 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style.css">
-    <link rel="shortcut icon" href="onion.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img\onion.png" type="image/x-icon">
     <title>Onion Media</title>
 </head>
 <body>
   
     <nav> 
-    <img src="Onion_Media.png" alt="Logo">
+    <img src="img\Onion_Media.png" alt="Logo">
     <ul>
     <li><a href="create_comonion.php" class="add">Create ComOnion</a>
    </li>
