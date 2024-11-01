@@ -1,4 +1,4 @@
 <?php
 // no code yet
-// You can help
+// You can help :)
 ?>

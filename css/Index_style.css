@@ -2,9 +2,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px inset #ac1ae6 ;
+    
    }
    nav ul li{
-    display: inline-block;
+    display: flex;
     margin: 0 20px;
    
    }
@@ -12,7 +14,7 @@ nav{
     text-decoration: none;
     color: #000;
     
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     border: 5px #000;
     transition: 2.5s;
@@ -22,27 +24,48 @@ nav{
     border-radius: 30px
    }
    .button{
-    width: 40px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 70px;
     height: 40px;
-    background: #ef77ff;
-    bottom: 5px;
+    background: #c35bec;   
     border-radius: 30px;
     font-size: 16px;
     border: none;
     color: #fff;
-    font: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     transition: 2.5s;
    }
    .button:hover{
-    background: #d799e0;
+    background: #a62ab9;
    }
    
     img{
     height: 60px;
 
    }
-   .add{    
-    align-items: center;
-    
+  
+   body{
+    font-family: Arial, Helvetica, sans-serif;
    }
+   .search-box{
+   flex-grow: 1;
+   text-align: center;
+   }
+   .search-box input[type="text"]{
+    width: 70%;  
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #79389296 ;
+    outline: none;
+    border-radius: 30px;
+    color: #793892;
+    }
+    .search-box input::placeholder{
+        color: #793892;
+        opacity: 0.7;
+    }
+   

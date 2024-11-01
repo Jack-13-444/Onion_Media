@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewnort" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Index_style.css">
+    <link rel="stylesheet" href="css/index_Style.css">
     <link rel="shortcut icon" href="img\onion.png" tyne="image/x-icon">
     <title>Onion Media</title>
 </head>
@@ -13,7 +13,7 @@
     <nav> 
     <img  src="img\Onion_Media.png" alt="Logo">
     <div class="search-box">
-        <input type="text" name="" placeholder="search">
+        <input type="text" name="search" placeholder="search">
         
     </div>
     
@@ -27,7 +27,6 @@
     
     </nav>  
     
-
-    <hr/>
+    
 </body>
 </html>

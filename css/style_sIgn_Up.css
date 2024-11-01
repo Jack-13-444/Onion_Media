@@ -18,7 +18,7 @@ body{
      border-radius: 10px;
      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
      width: 400px;
-     height: 400px;
+     height: 470px;
      
 }
 h1{
@@ -66,10 +66,24 @@ a{
     color: #793892;
     opacity: 0.7;
 }
-.input-group i{
+.input-group .bxs-lock-alt{
   position: absolute;
   right: 5%;
   top: 60%;
   transform: translateY(-50%);
   font-size: 20px;
+}
+.bxs-user{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.bxs-envelope{
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 20px;
 }
